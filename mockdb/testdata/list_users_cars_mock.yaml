@@ -1,0 +1,15 @@
+---
+tables:
+  users:
+    {{- include "tables/users.yaml" . | nindent 4}}
+  cars:
+    {{- include "tables/cars.yaml" . | nindent 4}}
+queries:
+  - table_name: users
+    expect_query_sql: "SELECT .*users.*"
+    data_files:
+      - "data/list_users.json"
+  - table_name: cars
+    expect_query_sql: "SELECT .*cars.*"
+    data_files:
+      - "data/list_cars.json"

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "id_yxgl",
+    "user_id": 1,
+    "color": "red",
+    "created_at": "2022-09-13 17:36:15",
+    "updated_at": "2022-09-13 09:37:43",
+    "deleted_at": null
+  },
+  {
+    "id": 3,
+    "name": "id_ecgs",
+    "user_id": 2,
+    "color": "blue",
+    "created_at": "2022-09-13 17:36:15",
+    "updated_at": "2022-09-13 09:37:43",
+    "deleted_at": null
+  }
+]
